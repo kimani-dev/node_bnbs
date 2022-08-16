@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = new axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: "https://ithewakimani-airbnbs.herokuapp.com/",
   credentials: true,
   headers: {
     Accept: "application/json",
