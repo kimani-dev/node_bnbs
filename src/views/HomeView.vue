@@ -20,7 +20,7 @@
         />
       </v-row>
       <v-row>
-        <v-col v-for="item in appartments" :key="item.id" cols="4">
+        <v-col v-for="item in appartments" :key="item.id" cols="12" sm="4">
           <Card :appartment="item" />
         </v-col>
       </v-row>
